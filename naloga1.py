@@ -1,8 +1,6 @@
 def pascal(n):
     """
     Yield gre do vrstice n Pascalovega trikotnika.
-
-    The first row is row 0.
     """
     def newrow(row):
         "Izračuna novo vrstico"
