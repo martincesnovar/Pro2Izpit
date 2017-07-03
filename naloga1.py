@@ -12,7 +12,7 @@ def pascal(n):
 
     prevrow = [1]
     yield prevrow
-    for x in range(n):
-        yield prevrow
+    for x in range(n-1):
         prevrow = list(newrow(prevrow))
+        yield prevrow
         
